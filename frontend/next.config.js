@@ -2,7 +2,8 @@
 const nextConfig = {
   async rewrites() {
     const backendUrl = process.env.NEXT_PUBLIC_API_URL;
-    if (!backendUrl) {
+    // Only add rewrite if URL is valid (starts with http:// or https://)
+    if (!backendUrl || !/^https?:\/\//.test(backendUrl)) {
       return [];
     }
     return [
