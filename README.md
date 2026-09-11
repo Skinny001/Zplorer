@@ -134,12 +134,6 @@ Zplorer/
 4. Click blocks → transactions for details
 5. Search by height or hash
 
-## Grading Checklist
-
-- ✅ **RPC Integration (50%)** — 6 distinct methods, all load-bearing
-- ✅ **Functionality (35%)** — live polling, search, block/tx/mempool detail, error states
-- ✅ **UI/UX (5%)** — clean, responsive, readable
-- ✅ **Creativity (10%)** — shielded-ratio headline stat, mempool panel, retry UX
 
 ## License
 
