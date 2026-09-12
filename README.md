@@ -1,6 +1,7 @@
 # Zplorer — Shielded Insight Explorer
 # Demo video 
 https://www.loom.com/share/c0f86fea6ce14b27b72b719187fe6f35
+
 A live Zcash block explorer that tracks shielded (private) vs transparent transaction activity, showing what percentage of recent network activity uses Zcash's privacy features.
 
 ## What It Does
